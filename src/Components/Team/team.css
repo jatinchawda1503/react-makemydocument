@@ -1,0 +1,17 @@
+.full-width-carousel-fix .default-slick-carousel.slick-initialized .freelancer,
+.full-width-carousel-fix .blog-carousel.slick-initialized .blog-compact-item-container{
+    margin: 15px;
+    transform: scale(0.95);
+    opacity: 1;
+    pointer-events: visible;
+    transition: 0.4s;
+}
+
+.default-slick-carousel.slick-initialized .freelancer{
+    width: inherit;
+    height: inherit;
+}
+
+.our-team-button{
+    cursor: pointer;
+}

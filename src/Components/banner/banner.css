@@ -1,0 +1,18 @@
+.banner-section-intro{
+    width: 32px;
+     vertical-align: baseline;
+}
+
+
+.contact-form-wrap .contact-form-group #txtCaptchaSpan {
+    height: 48px;
+    padding-left: 14px;
+    padding-right: 14px;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #2a41e8;
+    color: #fff;
+    border-radius: 5px 0 0 5px;
+  }

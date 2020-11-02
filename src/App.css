@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+./*genric*/
+
+.text-white {
+  color: white !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-black {
+  color: #666 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.white {
+  background-color: #fff !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.blue {
+  background-color: #2a41e8 !important;
 }
 
-.App-link {
-  color: #61dafb;
+.line-height-html {
+  line-height: 1.15em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bottom-border {
+  border-bottom: 1px solid #333; 
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.color-blue{
+  color: #2a41e8;
+}
+
+.width-100{
+
+	width: 100% !important;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+  -moz-appearance: none !important;
+  -webkit-appearance:none !important;
+  appearance:none;
+}
+
+.font-xl{
+  font-size: 42px !important;
+}
+
+.font-medium{
+  font-size: 30px !important;
+}
+
+.section-headline h3 strong{
+  position: relative;
+  color: #821c12 !important;
+}
+
+
+.color-white{
+	color: #fff !important;
+}
+
+button.cta-sticky {
+  text-transform: uppercase;
+}
+
+.section-headline h3 strong::after{
+	position: absolute;
+  content: "";
+  height: 3px;
+  background: #821c12;
+  width: 45%;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+  margin-bottom: -5px;
+  margin-left: 5px;
+}
+
+.section-headline-white h3 strong::after{
+  position: absolute;
+  content: "";
+  height: 3px;
+  background: #fff;
+  width: 45%;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+  margin-bottom: -5px;
+  margin-left: 5px;
+}
+
+#newsletterEmail{width: 400px;}
+.success{color:#5f9025 !important;}
+.error{color:#de5959  !important;}
+
+body{
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
 }
