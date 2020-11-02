@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=//home/cherelzv/react-mmd/
+    - /bin/cp * $DEPLOYPATH
